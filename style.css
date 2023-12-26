@@ -390,3 +390,64 @@ hr {
     border: none;
     background-color: white;
 }
+
+@media (width <= 600px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .music-nav {
+        display: none;
+    }
+
+    .music-player {
+        height: 4.5rem;
+        margin-left: 4rem;
+    }
+
+    .music-left {
+        font-size: 0.8rem;
+        position: relative;
+        left: -2.5rem;
+    }
+
+    .music-left i {
+        display: none
+    }
+
+    .song_name {
+        margin-left: 0.8rem;
+        margin-top: 0.3rem;
+    }
+
+    .singer {
+        display: none;
+    }
+
+    .content {
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .exp {
+        display: none;
+    }
+
+    .wrapper::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .card {
+        width: 40rem;
+        height: 10rem;
+    }
+
+    .card-play {
+        height: 2rem;
+        width: 2rem;
+        left: 2rem;
+    }
+}
