@@ -391,7 +391,7 @@ hr {
     background-color: white;
 }
 
-@media (width <= 1000px) {
+@media (max-width: 1000px) {
 
     .sidebar {
         display: none;
