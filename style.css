@@ -441,8 +441,8 @@ hr {
     }
 
     .card {
-        width: 40rem;
-        height: 10rem;
+        width: auto;
+        height: auto;
     }
 
     .card-play {
