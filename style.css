@@ -403,6 +403,7 @@ hr {
 
     .music-player {
         height: 4.5rem;
+        width: 100vh;
         margin-left: 4rem;
     }
 
