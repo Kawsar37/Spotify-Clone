@@ -376,6 +376,7 @@ input[type='range'] {
 
   .choto:hover {
     transform: scale(1.1);
+      transition: 0.4s linear;
   }
 
   .lib-icon i:hover {
