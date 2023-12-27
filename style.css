@@ -392,6 +392,9 @@ hr {
 }
 
 @media (max-width: 1000px) {
+    body {
+        background-color: #121212;
+    }
 
     .sidebar {
         display: none;
