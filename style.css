@@ -376,7 +376,6 @@ input[type='range'] {
 
   .choto:hover {
     transform: scale(1.1);
-      transition: 0.4s linear;
   }
 
   .lib-icon i:hover {
@@ -404,14 +403,16 @@ hr {
 
     .music-player {
         height: 4.5rem;
-        width: 20rem;
+        width: 75%;
         margin-left: 4rem;
+        justify-content: center;
     }
 
     .music-left {
         font-size: 0.8rem;
+        width: 25%;
         position: relative;
-        left: -2.5rem;
+        left: -3rem;
     }
 
     .music-left i {
@@ -428,8 +429,11 @@ hr {
     }
 
     .content {
-        overflow-y: hidden;
         flex-wrap: nowrap;
+        width: fit-content;
+    }
+
+    .content-holder {
         overflow-x: auto;
     }
 
@@ -442,14 +446,4 @@ hr {
         height: 0;
     }
 
-    .card {
-        width: auto;
-        height: auto;
-    }
-
-    .card-play {
-        height: 2rem;
-        width: 2rem;
-        left: 2rem;
-    }
 }
